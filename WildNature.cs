@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Drawing.Imaging;
-using System.Linq;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -54,21 +48,31 @@ namespace WildNature
 		{
 			if (_inMoving)
 				return;
+			switch (e.KeyCode)
+			{
+				case Keys.Up:
+					ShiftFrame(Direction.Up);
+					break;
+				case Keys.Down:
+					ShiftFrame(Direction.Down);
+					break;
+				case Keys.Left:
+					ShiftFrame(Direction.Left);
+					break;
+				case Keys.Right:
+					ShiftFrame(Direction.Right);
+					break;
+				default: return;
+			}
+		}
 
-			var movingDirection = Direction.Down;
-			if (e.KeyCode == Keys.Up)
-				movingDirection = Direction.Up;
-			if (e.KeyCode == Keys.Left)
-				movingDirection = Direction.Left;
-			if (e.KeyCode == Keys.Right)
-				movingDirection = Direction.Right;
-
+		private void ShiftFrame(Direction direction)
+		{
 			_shouldMoveFrame = true;
-
 			Task.Run(() =>
 				{
 					_inMoving = true;
-					MoveFrame(movingDirection);
+					MoveFrame(direction);
 				})
 				.ContinueWith(r => _inMoving = false);
 		}
