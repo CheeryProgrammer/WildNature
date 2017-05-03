@@ -47,6 +47,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common\Direction.cs" />
+    <Compile Include="ControllerUnit\Controller.cs" />
+    <Compile Include="ModelUnit\Entities\Alives\IAlive.cs" />
+    <Compile Include="ModelUnit\Entities\Alives\Player.cs" />
+    <Compile Include="ModelUnit\Entities\Bonuses\Apple.cs" />
+    <Compile Include="ModelUnit\Entities\Bonuses\Cherry.cs" />
+    <Compile Include="ModelUnit\Entities\Bonuses\Raspberry.cs" />
+    <Compile Include="ModelUnit\Entities\Entity.cs" />
+    <Compile Include="ModelUnit\Entities\Obstacles\Pit.cs" />
+    <Compile Include="ModelUnit\Entities\Obstacles\Stone.cs" />
+    <Compile Include="ModelUnit\Entities\Obstacles\Tree.cs" />
+    <Compile Include="ModelUnit\Model.cs" />
     <Compile Include="WildNature.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +103,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Animals\wolf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ModelUnit\Entities\Alives\Monsters\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
