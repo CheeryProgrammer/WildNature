@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WildNature.ControllerUnit.Controller" Collapsed="true">
+    <Position X="25.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAgAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ControllerUnit\Controller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WildNature.ModelUnit.Entities.Alives.Player" Collapsed="true">
+    <Position X="2.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>ModelUnit\Entities\Alives\Player.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WildNature.ModelUnit.Entities.Alives.Monsters.Bear" Collapsed="true">
+    <Position X="9.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>ModelUnit\Entities\Alives\Monsters\Bear.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WildNature.ModelUnit.Entities.Alives.Monsters.Snake" Collapsed="true">
+    <Position X="13.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>ModelUnit\Entities\Alives\Monsters\Snake.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WildNature.ModelUnit.Entities.Alives.Monsters.Wolf" Collapsed="true">
+    <Position X="16" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>ModelUnit\Entities\Alives\Monsters\Wolf.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WildNature.ModelUnit.Entities.Bonuses.Apple" Collapsed="true">
+    <Position X="20.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelUnit\Entities\Bonuses\Apple.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WildNature.ModelUnit.Entities.Bonuses.Cherry" Collapsed="true">
+    <Position X="4.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelUnit\Entities\Bonuses\Cherry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WildNature.ModelUnit.Entities.Bonuses.Raspberry" Collapsed="true">
+    <Position X="11.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelUnit\Entities\Bonuses\Raspberry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WildNature.ModelUnit.Entities.Entity" Collapsed="true">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelUnit\Entities\Entity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WildNature.ModelUnit.Entities.Obstacles.Pit" Collapsed="true">
+    <Position X="18.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelUnit\Entities\Obstacles\Pit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WildNature.ModelUnit.Entities.Obstacles.Stone" Collapsed="true">
+    <Position X="22.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelUnit\Entities\Obstacles\Stone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WildNature.ModelUnit.Entities.Obstacles.Tree" Collapsed="true">
+    <Position X="7" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelUnit\Entities\Obstacles\Tree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WildNature.ModelUnit.Model" Collapsed="true">
+    <Position X="27" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelUnit\Model.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="WildNature.ModelUnit.Entities.Alives.IAlive" Collapsed="true">
+    <Position X="25.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelUnit\Entities\Alives\IAlive.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WildNature.ModelUnit.Entities.Alives.IHunter" Collapsed="true">
+    <Position X="27" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelUnit\Entities\Alives\IHunter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WildNature.ModelUnit.Entities.Alives.IVictim" Collapsed="true">
+    <Position X="25.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>ModelUnit\Entities\Alives\IVictim.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="WildNature.Common.Direction" Collapsed="true">
+    <Position X="25.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAI=</HashCode>
+      <FileName>Common\Direction.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

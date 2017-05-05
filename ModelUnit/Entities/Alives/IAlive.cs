@@ -1,6 +1,6 @@
 ﻿namespace WildNature.ModelUnit.Entities.Alives
 {
-	interface IAlive
+	internal interface IAlive
 	{
 		int Health { get; set; }
 	}

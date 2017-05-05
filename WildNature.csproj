@@ -49,6 +49,8 @@
     <Compile Include="Common\Direction.cs" />
     <Compile Include="ControllerUnit\Controller.cs" />
     <Compile Include="ModelUnit\Entities\Alives\IAlive.cs" />
+    <Compile Include="ModelUnit\Entities\Alives\IHunter.cs" />
+    <Compile Include="ModelUnit\Entities\Alives\IVictim.cs" />
     <Compile Include="ModelUnit\Entities\Alives\Monsters\Bear.cs" />
     <Compile Include="ModelUnit\Entities\Alives\Monsters\Snake.cs" />
     <Compile Include="ModelUnit\Entities\Alives\Monsters\Wolf.cs" />
@@ -82,6 +84,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="ClassDiagram.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
