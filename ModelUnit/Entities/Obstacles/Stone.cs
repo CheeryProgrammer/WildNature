@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using WildNature.ModelUnit.Entities.Alives;
 
 namespace WildNature.ModelUnit.Entities.Obstacles
 {
-	class Stone : Entity
+	internal class Stone : Obstacle
 	{
+		public override void GiveDamage(IVictim victim)
+		{
+			throw new System.NotImplementedException();
+		}
 	}
 }

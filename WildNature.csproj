@@ -48,7 +48,7 @@
   <ItemGroup>
     <Compile Include="Common\Direction.cs" />
     <Compile Include="ControllerUnit\Controller.cs" />
-    <Compile Include="ModelUnit\Entities\Alives\IAlive.cs" />
+    <Compile Include="ModelUnit\Entities\Alives\AliveEntity.cs" />
     <Compile Include="ModelUnit\Entities\Alives\IHunter.cs" />
     <Compile Include="ModelUnit\Entities\Alives\IVictim.cs" />
     <Compile Include="ModelUnit\Entities\Alives\Monsters\Bear.cs" />
@@ -57,8 +57,10 @@
     <Compile Include="ModelUnit\Entities\Alives\Player.cs" />
     <Compile Include="ModelUnit\Entities\Bonuses\Apple.cs" />
     <Compile Include="ModelUnit\Entities\Bonuses\Cherry.cs" />
+    <Compile Include="ModelUnit\Entities\Bonuses\IBonus.cs" />
     <Compile Include="ModelUnit\Entities\Bonuses\Raspberry.cs" />
     <Compile Include="ModelUnit\Entities\Entity.cs" />
+    <Compile Include="ModelUnit\Entities\Obstacles\Obstacle.cs" />
     <Compile Include="ModelUnit\Entities\Obstacles\Pit.cs" />
     <Compile Include="ModelUnit\Entities\Obstacles\Stone.cs" />
     <Compile Include="ModelUnit\Entities\Obstacles\Tree.cs" />

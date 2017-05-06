@@ -1,6 +1,12 @@
-﻿namespace WildNature.ModelUnit.Entities.Obstacles
+﻿using WildNature.ModelUnit.Entities.Alives;
+
+namespace WildNature.ModelUnit.Entities.Obstacles
 {
-	class Tree : Entity
+	internal class Tree : Obstacle
 	{
+		public override void GiveDamage(IVictim victim)
+		{
+			throw new System.NotImplementedException();
+		}
 	}
 }
