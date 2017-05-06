@@ -73,7 +73,7 @@
   <Class Name="WildNature.ModelUnit.Entities.Entity" Collapsed="true">
     <Position X="18" Y="1" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
       <FileName>ModelUnit\Entities\Entity.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -101,7 +101,7 @@
   <Class Name="WildNature.ModelUnit.Model">
     <Position X="25.25" Y="3.75" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAIAAAIAAAAEAAAgQAAgAAAAAUAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AgAAAAIAAAIKAAAEAAAgQAAgAAAAAVAAAAAAEAAAAAA=</HashCode>
       <FileName>ModelUnit\Model.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -113,21 +113,28 @@
     </TypeIdentifier>
   </Class>
   <Interface Name="WildNature.ModelUnit.Entities.Alives.IHunter">
-    <Position X="21.5" Y="5.5" Width="1.5" />
+    <Position X="21.5" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ModelUnit\Entities\Alives\IHunter.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="WildNature.ModelUnit.Entities.Alives.IVictim">
-    <Position X="23.25" Y="5.5" Width="1.5" />
+    <Position X="23.25" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAggAAAAA=</HashCode>
       <FileName>ModelUnit\Entities\Alives\IVictim.cs</FileName>
     </TypeIdentifier>
   </Interface>
+  <Interface Name="WildNature.ModelUnit.Entities.Bonuses.IBonus">
+    <Position X="11" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAQAAAAA=</HashCode>
+      <FileName>ModelUnit\Entities\Bonuses\IBonus.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Enum Name="WildNature.Common.Direction">
-    <Position X="25.25" Y="7" Width="1.75" />
+    <Position X="23.25" Y="1" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAI=</HashCode>
       <FileName>Common\Direction.cs</FileName>
