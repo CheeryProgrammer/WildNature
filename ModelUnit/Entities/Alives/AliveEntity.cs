@@ -1,4 +1,5 @@
 ﻿using WildNature.Common;
+using WildNature.ModelUnit.Entities.Bonuses;
 
 namespace WildNature.ModelUnit.Entities.Alives
 {
@@ -13,5 +14,7 @@ namespace WildNature.ModelUnit.Entities.Alives
 		{
 			LookTo = direction;
 		}
+
+		public abstract void EatBonus(IBonus bonus);
 	}
 }

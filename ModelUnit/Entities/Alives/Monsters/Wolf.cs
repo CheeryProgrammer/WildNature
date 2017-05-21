@@ -1,8 +1,11 @@
-﻿namespace WildNature.ModelUnit.Entities.Alives.Monsters
+﻿using WildNature.ModelUnit.Entities.Bonuses;
+
+namespace WildNature.ModelUnit.Entities.Alives.Monsters
 {
 	class Wolf : AliveEntity, IHunter, IVictim
 	{
-		public int AttackPower { get; }
+		private int _attackPower;
+		public int AttackPower => _attackPower;
 		public int Defense { get; }
 
 		public void Attack(IVictim victim)
@@ -14,11 +17,16 @@
 		{
 			throw new System.NotImplementedException();
 		}
-
-
+		
 		public override void MakeStep()
 		{
 			throw new System.NotImplementedException();
+		}
+
+		public override void EatBonus(IBonus bonus)
+		{
+			_attackPower += bonus.PowerAddition;
+			Health += bonus.HealthAddition;
 		}
 	}
 }

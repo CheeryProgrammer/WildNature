@@ -1,29 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="WildNature.ControllerUnit.Controller">
-    <Position X="25.25" Y="1" Width="1.75" />
+    <Position X="25.25" Y="1.5" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAIAAAAEAgAAwAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAIAAAAEAgAAQAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ControllerUnit\Controller.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="WildNature.ModelUnit.Entities.Alives.AliveEntity">
-    <Position X="18" Y="2.25" Width="1.5" />
+    <Position X="18" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AEAACAAAAAAAAAAAAAAgAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AEAACAAAAAAAAAAAAAAgAQAAAgAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ModelUnit\Entities\Alives\AliveEntity.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="WildNature.ModelUnit.Entities.Alives.Player">
-    <Position X="12.25" Y="5.75" Width="2" />
+    <Position X="12.25" Y="6.25" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAgCAAAAIAAAAAAAAAAggAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgCAAAAoAAAAAAAAAAggAAAEA=</HashCode>
       <FileName>ModelUnit\Entities\Alives\Player.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="WildNature.ModelUnit.Entities.Alives.Monsters.Bear">
-    <Position X="15" Y="5.75" Width="1.5" />
+    <Position X="15" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAgCAAAAIAAAAAAAAAAggAAAAA=</HashCode>
       <FileName>ModelUnit\Entities\Alives\Monsters\Bear.cs</FileName>
@@ -31,7 +31,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="WildNature.ModelUnit.Entities.Alives.Monsters.Snake">
-    <Position X="17.25" Y="5.75" Width="1.5" />
+    <Position X="17.25" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAgCAAAAIAAAAAAAAAAggAAAAA=</HashCode>
       <FileName>ModelUnit\Entities\Alives\Monsters\Snake.cs</FileName>
@@ -39,7 +39,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="WildNature.ModelUnit.Entities.Alives.Monsters.Wolf">
-    <Position X="19.5" Y="5.75" Width="1.5" />
+    <Position X="19.5" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAgCAAAAIAAAAAAAAAAggAAAAA=</HashCode>
       <FileName>ModelUnit\Entities\Alives\Monsters\Wolf.cs</FileName>
@@ -47,7 +47,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="WildNature.ModelUnit.Entities.Bonuses.Apple">
-    <Position X="14.5" Y="2.25" Width="1.5" />
+    <Position X="14.5" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAQAAAAA=</HashCode>
       <FileName>ModelUnit\Entities\Bonuses\Apple.cs</FileName>
@@ -55,7 +55,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="WildNature.ModelUnit.Entities.Bonuses.Cherry">
-    <Position X="12.75" Y="2.25" Width="1.5" />
+    <Position X="12.75" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAQAAAAA=</HashCode>
       <FileName>ModelUnit\Entities\Bonuses\Cherry.cs</FileName>
@@ -63,78 +63,78 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="WildNature.ModelUnit.Entities.Bonuses.Raspberry">
-    <Position X="16.25" Y="2.25" Width="1.5" />
+    <Position X="16.25" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAQAAAAA=</HashCode>
       <FileName>ModelUnit\Entities\Bonuses\Raspberry.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="WildNature.ModelUnit.Entities.Entity" Collapsed="true">
-    <Position X="18" Y="1" Width="1.5" />
+  <Class Name="WildNature.ModelUnit.Entities.Entity">
+    <Position X="18" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
       <FileName>ModelUnit\Entities\Entity.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="WildNature.ModelUnit.Entities.Obstacles.Pit">
-    <Position X="19.75" Y="3.75" Width="1.5" />
+    <Position X="19.75" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ModelUnit\Entities\Obstacles\Pit.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="WildNature.ModelUnit.Entities.Obstacles.Stone">
-    <Position X="23.25" Y="3.75" Width="1.5" />
+    <Position X="23.25" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ModelUnit\Entities\Obstacles\Stone.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="WildNature.ModelUnit.Entities.Obstacles.Tree">
-    <Position X="21.5" Y="3.75" Width="1.5" />
+    <Position X="21.5" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ModelUnit\Entities\Obstacles\Tree.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="WildNature.ModelUnit.Model">
-    <Position X="25.25" Y="3.75" Width="1.75" />
+    <Position X="25.25" Y="4.25" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AgAAAAIAAAIKAAAEAAAgQAAgAAAAAVAAAAAAEAAAAAA=</HashCode>
+      <HashCode>AgAAAAIAAEIKAAAEAAAgQAAgAAAAAVQAAAAAEAAAAAA=</HashCode>
       <FileName>ModelUnit\Model.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="WildNature.ModelUnit.Entities.Obstacles.Obstacle">
-    <Position X="21.5" Y="2" Width="1.5" />
+    <Position X="21.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ModelUnit\Entities\Obstacles\Obstacle.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Interface Name="WildNature.ModelUnit.Entities.Alives.IHunter">
-    <Position X="21.5" Y="5.75" Width="1.5" />
+    <Position X="21.5" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ModelUnit\Entities\Alives\IHunter.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="WildNature.ModelUnit.Entities.Alives.IVictim">
-    <Position X="23.25" Y="5.75" Width="1.5" />
+    <Position X="23.25" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAggAAAAA=</HashCode>
       <FileName>ModelUnit\Entities\Alives\IVictim.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="WildNature.ModelUnit.Entities.Bonuses.IBonus">
-    <Position X="11" Y="2.25" Width="1.5" />
+    <Position X="11" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAQAAAAA=</HashCode>
       <FileName>ModelUnit\Entities\Bonuses\IBonus.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Enum Name="WildNature.Common.Direction">
-    <Position X="23.25" Y="1" Width="1.75" />
+    <Position X="23.25" Y="1.5" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAI=</HashCode>
       <FileName>Common\Direction.cs</FileName>

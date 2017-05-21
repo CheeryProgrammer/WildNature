@@ -27,13 +27,5 @@ namespace WildNature.ControllerUnit
 			_inGame = true;
 			Task.Run(()=>_model.StartGame());
 		}
-
-		private void MainLoop()
-		{
-			while (_inGame)
-			{
-				_model.MakeStep();
-			}
-		}
 	}
 }
